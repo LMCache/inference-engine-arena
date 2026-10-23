@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 # GPU hourly prices in USD
 GPU_HOURLY_PRICES = {
-    "NVIDIA A100-SXM4-40GB": 1.50,  # A100 80GB
+    "NVIDIA A100-SXM4-40GB": 1.50,  # A100 40GB
     "NVIDIA A100-SXM4-80GB": 2.00,  # A100 80GB
     "NVIDIA H100 80GB HBM3": 4.00,  # H100 80GB
     # "NVIDIA H200-SXM5-141GB": 4.50,  # H200 141GB

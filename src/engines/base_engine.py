@@ -141,6 +141,6 @@ class BaseEngine(ABC):
     
     def print_status(self) -> None:
         """
-        Print the status(to_dict()) of the vLLM engine.
+        Print the status(to_dict()) of the engine.
         """
         print(self.to_dict())

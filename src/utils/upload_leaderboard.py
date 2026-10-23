@@ -49,7 +49,7 @@ def upload_json_file(filepath,login=True):
     Args:
         filepath (str): Path to the file
         filedata (dict): Data to upload
-        login (bool): Whether to do upload anonymously or with authentication
+        login (bool): Whether to upload anonymously or with authentication
                 
     Returns:
         dict: The response from the API
